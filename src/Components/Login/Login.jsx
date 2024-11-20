@@ -7,7 +7,6 @@ import { signInWithPopup } from "firebase/auth";
 import GoogleLogo from "./../../Assets/Icons/google-icon-logo-svgrepo-com.svg";
 
 const provider = new GoogleAuthProvider();
-// import { useEffect } from 'react';
 
 function Login({ setIsLoggedIn }) {
   const navigate = useNavigate();
